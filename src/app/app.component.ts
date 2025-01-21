@@ -6,8 +6,12 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  template: ` <h1>Hola mundo de Twitch y YouTube</h1> `,
+  styles: `
+  h1{
+    color: red;
+  }
+  `,
 })
 export class AppComponent {
   title = 'PracticeAngular';
