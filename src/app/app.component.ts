@@ -6,7 +6,7 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  template: ` <h1>Hola mundo de Twitch y YouTube</h1> `,
+  template: ` <h1>Hola mundo desde {{ city.toUpperCase() }}</h1> `,
   styles: `
   h1{
     color: red;
@@ -14,5 +14,5 @@ import { RouterOutlet } from '@angular/router';
   `,
 })
 export class AppComponent {
-  title = 'PracticeAngular';
+  city = 'Córdoba';
 }
