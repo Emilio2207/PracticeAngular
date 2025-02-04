@@ -7,11 +7,7 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterOutlet],
   template: ` <h1>Hola mundo desde {{ city.toUpperCase() }}</h1> `,
-  styles: `
-  h1{
-    color: red;
-  }
-  `,
+  styles: ``,
 })
 export class AppComponent {
   city = 'Córdoba';
