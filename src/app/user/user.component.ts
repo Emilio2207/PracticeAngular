@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+//-------------------------------------------------------
+
 @Component({
   selector: 'app-user',
   standalone: true,
@@ -8,4 +10,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './user.component.html',
   styleUrl: './user.component.css',
 })
-export class UserComponent {}
+export class UserComponent {
+  username = 'emiDev';
+  isLoggedIn = true;
+}
