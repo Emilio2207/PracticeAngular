@@ -19,6 +19,11 @@ import { CommonModule } from '@angular/common';
       nisl.
     </p>
   `,
-  styles: ``,
+  styles: `
+  img{
+    width: 100%;
+    height: auto;
+  }
+  `,
 })
 export class CommentsComponent {}
